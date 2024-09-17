@@ -15,6 +15,12 @@ class Movie {
         $this->genere = $_genere;
         $this->cast = $_cast;
     }
+
+    // all'interno della classe movie definisco il metodo per recuperare la descrizione completa del film
+
+    public function getFullDescription(){
+        return $this->titolo." ".$this->anno." ".$this->genere." ".$this->cast;
+    }
 }
 
 // creo le istanze della classe Movie
