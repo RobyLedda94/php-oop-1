@@ -27,4 +27,11 @@ class Movie {
     $firs_movie = new Movie ("Will Hunting - Genio Ribelle", 1997, "Drammatico", "Matt Damon, Ben Affleck, Robin Williams");
     $second_movie = new Movie ("Il Padrido", 1972, "Giallo", "Al Pacino, Marlon Brando");
 
+    // mostro a video il risultato richiamando il metodo getFullDescriprion
+
+    echo $firs_movie->getFullDescription();
+    echo "<hr>";
+    echo $second_movie->getFullDescription();
+    
+
 ?>
